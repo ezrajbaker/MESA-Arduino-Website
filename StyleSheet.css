@@ -1,0 +1,186 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(Montserrat-Regular.otf);
+}
+@font-face{
+  font-family: liberata;
+  src: url(LiberataBook.otf);
+}
+@font-face{
+  font-family: console-font;
+  src: url(ConsoleFont.otf);
+}
+html{
+  background-color: #fffff0;
+  margin-right: 8%;
+}
+/*Headers*/
+h1{
+  font-size: 50px;
+  font-family:Montserrat;
+  color: #FFF;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+h2{
+  font-size: 40px;
+  font-family: Montserrat;
+}
+h3{
+  font-size: 30px;
+  font-family: Montserrat;
+}
+h4{
+  font-size: 27px;
+  font-family: Montserrat;
+}
+p{
+  font-size: 18px;
+  font-family: liberata;
+}
+
+.noNewLine {
+  font-size: 18px;
+  font-family: liberata;
+}
+
+/*list*/
+ol.a{
+  list-style-type: decimal;
+  font-size: 18px;
+  font-style: liberata;
+}
+
+/*Fonts and colors for code sections.*/
+.console {
+  font-size: 18px;
+  font-family: console-font;
+}
+.console-blue {
+  font-size: 18px;
+  font-family: console-font;
+  color: blue;
+}
+
+/* top bar */
+div.title{
+  height: 150px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #DC143C;
+  margin:0 !IMPORTANT;
+  padding: 0;
+}
+
+div.steps{
+  background-color: lightgrey;
+  padding: 2px;
+}
+div.text-block{
+  padding: 2px;
+}
+
+.container{
+  position: relative;
+  width: 231.3px;
+  height: 92.2px;
+  float: left;
+}
+.container img{
+  width: 100%;
+  height: 100%;
+}
+.container .btn {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: 0;
+}
+
+/*images*/
+img.img1{
+  float:right;
+}
+img.img2 {
+  padding: 20px;
+}
+
+/* Image Gallery */
+div.gallery {
+  margin: 20px;
+  border: 1px solid #ccc;
+  width: 180px;
+  float: left;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  float: left;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.desc {
+  padding: 15px;
+}
+
+  /*Drop Down Menu*/
+  ul{
+  width:100%;
+  float:left;
+  font-family:Montserrat;
+  list-style:none;
+  padding:0;
+  border:none;
+  font-size:160%;
+  margin: 0;
+  }
+
+  li a{
+    display: block;
+    padding: 8px;
+  }
+  a{
+  text-decoration:none;
+  color: black;
+  display: block;
+
+  text-align: left;
+  }
+
+  a:hover {
+  color:darkgrey;
+  position: relative;
+  }
+
+  .dropdown {
+      position: relative;
+      display: inline-block;
+      float: left;
+  }
+
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: rgba(255,255,255);
+      width: 100%;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
